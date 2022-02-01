@@ -1,0 +1,142 @@
+/* side-list bar css */
+.aside-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aside-nav {
+    padding: 2.5rem;
+    width: 20rem;
+    font-size: 2rem;
+    height: 40rem;
+    overflow-y: auto;
+}
+
+.aside-link.aside-active-item {
+    color: var(--primary-color);
+}
+
+.aside-link {
+    font-size: 2rem;
+    color: var(--text-color);
+    box-sizing: border-box;
+    padding: 0.5rem;
+    white-space: nowrap;
+}
+
+.aside-link:hover {
+    background-color: var(--hover-aside);
+    border-radius: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar-vertical-item {
+    text-align: left;
+    margin: 1rem;
+    font-size: 1.1rem;
+}
+
+.list-item-non-bullet {
+    list-style: none;
+}
+
+.border-right {
+    width: 11rem;
+    padding: 2.5rem;
+}
+
+/* avatar-main css */
+.avatar-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding: 5rem;
+    margin-top: -3rem;
+}
+
+.avatar-heading {
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* avatar-conatiner */
+
+.avatar{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 4px;
+    background-color: #F5F7F9;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+
+  }
+  
+  #avatarSmall{
+    width: 50px;
+    clip-path: circle()
+  }
+  
+  
+  #avatarMedium{
+    width: 100px;
+    clip-path: circle()
+  }
+  
+  #avatarLarge{
+    width: 150px;
+    clip-path: circle()
+  }
+
+
+
+
+
+
+.avatar-text {
+    font-size: 5rem;
+    padding: 1rem;
+    margin-top: -1rem;
+    width: 50rem;
+}
+
+.avatar-text span {
+    color: var(--primary-color);
+}
+
+
+
+.avatar-points {
+    margin-top: 1.5rem;
+    margin-left: 1.25rem;
+}
+
+.avatar-points li {
+    font-size: 1.8rem;
+}
+
+
+
+#avatar-iframe1 {
+    height: 26rem;
+}
+
+#avatar-iframe2 {
+    height: 35rem;
+}
+
+
+
+
+
