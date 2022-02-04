@@ -1,33 +1,3 @@
-/* side-list bar css */
-.aside-container {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.aside-nav {
-    padding: 2.5rem;
-    width: 20rem;
-    font-size: 2rem;
-    height: 40rem;
-    overflow-y: auto;
-}
-
-.aside-link.aside-active-item {
-    color: var(--primary-color);
-}
-
-.aside-link {
-    font-size: 2rem;
-    color: var(--text-color);
-    box-sizing: border-box;
-    padding: 0.5rem;
-    white-space: nowrap;
-}
-
-.aside-link:hover {
-    background-color: var(--hover-aside);
-    border-radius: 10%;
-}
 
 a {
     text-decoration: none;
