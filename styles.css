@@ -5,6 +5,7 @@
 @import "/cssFiles/card.css";
 @import "/cssFiles/reset.css";
 
+
 html{
   scroll-behavior: smooth;
 }
