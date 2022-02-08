@@ -1,0 +1,35 @@
+.textcard {
+    background: var(--white);
+    display: flex;
+    margin: 8px;
+    border-radius: 10px;
+    border:solid;
+    border-width: thin;
+  }
+  
+  
+  .card-head-info {
+    color: var(--white);
+    z-index: 2;
+    position: absolute;
+    bottom: 18px;
+    left: 10px;
+  }
+  
+  
+  .text-only {
+    flex-direction: column;
+    width: 20rem;
+    padding: 1.5rem;
+  }
+  .textcard-dismiss-btn {
+    background: transparent;
+    margin-left: auto;
+    font-size: 1.3rem;
+    border: 0;
+  }
+
+  .heading4{
+      font-weight: 600;
+      padding: .5rem;
+  }

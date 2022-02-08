@@ -2,6 +2,9 @@
 @import "/cssFiles/alert.css";
 @import "/cssFiles/color.css";
 @import "/cssFiles/button.css";
+@import "/cssFiles/card.css";
+@import "/cssFiles/reset.css";
+
 
 html{
   scroll-behavior: smooth;
