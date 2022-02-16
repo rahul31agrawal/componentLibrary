@@ -25,7 +25,7 @@ body {
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 4rem;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
@@ -60,11 +60,12 @@ body {
 }
 
 
-  .avatar-heading {
+.avatar-heading {
     margin-left: 10px;
     font-size: 2rem;
     font-weight: bold;
     color: var(--primary-color);
+    
 }
 
 /* avatar-conatiner */
@@ -83,6 +84,7 @@ body {
     padding: 1rem;
     margin-bottom: 1.5rem;
     flex-wrap: wrap;
+    margin-top: 5rem;
 
   }
   
@@ -132,4 +134,77 @@ body {
     height: 20rem;
 }
 
+/* ---------Navigation---------- */
+.navigationM {
+  position: fixed;
+  background-color: #111;
+  color: white;
+  padding: .5rem;
+  border-bottom-right-radius: 1rem;
+  height: 4rem;
+  width: 100%;
+  z-index: 999;
+  
 
+  
+}
+
+.containerM {
+  padding: .5rem;
+
+}
+
+.navigationM .nav-brandM {
+  font-weight: bold;
+}
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.navigationM .nav-pills {
+  text-align: right;
+}
+
+
+.list-non-bullet {
+  list-style: none;
+}
+
+.list-item-inlineM {
+  display: inline;
+  /* padding: 0.5rem; */
+  font-size: 1rem;
+  
+}
+
+.linkM {
+  
+  color: #818181;
+  text-decoration: none;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  
+}
+
+.linkM:hover{
+  color: #f1f1f1;
+}
+
+.navigationM .link-active {
+  font-weight: bold;
+}
+
+.nav-brandM{
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  color: #818181;
+}
+
+.nav-brandM:hover{
+  color: #f1f1f1;
+}
+
+.heading6{
+  margin-top: 5rem;
+}
