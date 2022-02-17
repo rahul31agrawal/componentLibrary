@@ -9,6 +9,8 @@
 @import "/cssFiles/navigation.css";
 @import "/cssFiles/grid.css";
 @import "/cssFiles/slider.css";
+@import "/cssFiles/home.css";
+@import "/cssFiles/components/installation/installation.css";
 
 
 html{
@@ -55,7 +57,7 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
-  .main-container {
+.main-container {
     font-size: 1rem;
 }
 
