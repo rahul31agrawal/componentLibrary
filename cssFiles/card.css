@@ -4,3 +4,10 @@
 @import "/cssFiles/cardfiles/textonly.css";
 @import "/cssFiles/cardfiles/horizontalcard.css";
 @import "/cssFiles/cardfiles/cardwithshadow.css";
+
+.card-heading {
+    padding-top: 6rem;
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
