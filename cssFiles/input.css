@@ -105,3 +105,21 @@
     margin-top: 4rem;
     margin-left: 6rem;
 }
+
+.avatarIn{
+  min-height: 100px;
+  
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 4px;
+  background-color: #F5F7F9;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  
+  margin-top: 5rem;
+
+}

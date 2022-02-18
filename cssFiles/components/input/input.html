@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/styles.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+</head>
+<body>
+    <nav class="navigationM containerM">
+        <div class="nav-brandM">Wizard-UI</div>
+          <ul class="list-non-bullet nav-pills">
+         <li class="list-item-inlineM">
+         <a class="linkM link-active" href="/home.html" class="active">Home</a>
+         </li>
+         <li class="list-item-inlineM">
+         <a class="linkM" href="/installation.html">Documentation</a>
+         </li>
+         <li class="list-item-inlineM">
+         <a class="linkM" href="https://github.com/rahul31agrawal/componentLibrary">Github</a>
+         </li>
+         </ul>
+         </div>
+      </nav>
+
+      <div class="sidenav">
+        <a href="/installation.html">Get Started</a>
+          <a href="../Avatar/avatar.html">Avatar</a>
+          <a href="../Alert/alert.html">Alert</a>
+          <a href="../Badge/badge.html">Badge</a>
+          <a href="../Button/button.html">Button</a>
+          <a href="../card/card.html">Card</a>
+          <a href="../image/image.html">Images</a>
+          <a href="../input/input.html">Input</a>
+          <a href="../Navigation/navigation.html">Navigation</a>
+          <a href="../Grid/grid.html">Grid</a>
+          <a href="../slider/slider.html">Slider</a>
+        </div>
+        <div class="main">
+            <!-- ----------------------Input----------------------------- -->
+
+    <h3 class="avatar-heading" id = "input">Input</h3>
+    
+            
+    <div class="main-container">
+        <h3>Demo</h3>
+        <h3>Input text box</h3>
+        <div class="avatarIn">
+          <div class="outer-boundary">
+            <form action=""> 
+              
+        
+              <div class="form-content">
+                <h1>Login</h1>
+               <label class = "label-position" for="email-id">Email address</label>
+                <input class="user-input" type="email" name="" id="email-id" placeholder="enter your email">
+        
+              <label  class = "label-position" for="user-password">Password</label>
+                <input class="user-input" type="password" name="" id="user-password" placeholder="enter your password">
+        
+              <div>
+                <input type="checkbox" name="remember-me" value="yes">
+          <label for="remember-me"> Remember me</label>
+              <a href="#"><small>Forgot password?</small></a>
+        
+              </div>
+        
+             <button id = "login-btn">Login</button>
+             <button id = "create-btn">Create new Account</button>
+             
+        
+              </div>
+        
+        
+           </form>
+        
+          </div>
+
+        </div>
+        
+
+        <div class="iframe-container">
+            
+            <iframe class = "iframe" id = "avatar-iframe1"
+               src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cform%2520action%253D%2522%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522form-content%2522%253E%250A%2520%2520%2520%253Ch1%253ELogin%253C%252Fh1%253E%250A%2520%2520%2520%253Clabel%2520class%2520%253D%2520%2522label-position%2522%2520for%253D%2522email-id%2522%253EEmail%2520address%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520type%253D%2522email%2522%2520name%253D%2522%2522%2520id%253D%2522email-id%2522%2520placeholder%253D%2522enter%2520your%2520email%2522%253E%250A%2520%2520%2520%253Clabel%2520%2520class%2520%253D%2520%2522label-position%2522%2520for%253D%2522user-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%2520%2520%253Cinput%2520class%253D%2522user-input%2522%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522user-password%2522%2520placeholder%253D%2522enter%2520your%2520password%2522%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522remember-me%2522%2520value%253D%2522yes%2522%253E%253Clabel%2520for%253D%2522remember-me%2522%253E%2520Remember%2520me%253C%252Flabel%253E%250A%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Csmall%253EForgot%2520password%253F%253C%252Fsmall%253E%253C%252Fa%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cbutton%2520id%2520%253D%2520%2522login-btn%2522%253ELogin%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520id%2520%253D%2520%2522create-btn%2522%253ECreate%2520new%2520Account%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fform%253E"
+               sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            
+
+        </div>
+
+
+          <!-- --------------------------------------------------- -->
+
+
+          <h2 class = "responsiveheading">Input with validation & Error style</h2>
+            <div class="inputContainer3">
+                    
+                
+                <div>
+                    <div class="input-container">
+                        <label class = "label-position" for="email-id">Email address</label>
+                        <input class="user-input" type="email" name="" id="email-id" placeholder="enter your email" value = "rahul@neogcamp.com">
+                    
+                        <span id = "check"><i class="fas fa-check"></i></span>
+                    
+                        </div>
+                        <div id = "password-outer">
+                          <div id = "password-inner">
+                        <label  class = "label-position" for="user-password">Password</label>
+                            <input class="user-input" type="password" name="" id="user-password" placeholder="enter your password" value = "1234">
+                            <span class = "wrong"><i class="fas fa-times"></i></span>
+                            </div>
+                          <small class = "wrong">Password must have atleast 1 alphaneumeric & 1 special character!</small>
+                        </div>  
+
+                </div>
+
+            </div>
+          </div>  
+         
+          
+    </div>  
+
+    <div class="iframe-container3">
+            
+        <iframe class = "iframe" id = "avatar-iframe1"
+           src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%253Cdiv%2520class%253D%2522input-container%2522%253E%250A%2520%253Clabel%2520class%2520%253D%2520%2522label-position%2522%2520for%253D%2522email-id%2522%253EEmail%2520address%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522user-input%2522%2520type%253D%2522email%2522%2520name%253D%2522%2522%2520id%253D%2522email-id%2522%2520placeholder%253D%2522enter%2520your%2520email%2522%2520value%2520%253D%2520%2522rahul%2540neogcamp.com%2522%253E%250A%2520%253Cspan%2520id%2520%253D%2520%2522check%2522%253E%253Ci%2520class%253D%2522fas%2520fa-check%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520id%2520%253D%2520%2522password-outer%2522%253E%250A%2520%253Cdiv%2520id%2520%253D%2520%2522password-inner%2522%253E%250A%2520%253Clabel%2520%2520class%2520%253D%2520%2522label-position%2522%2520for%253D%2522user-password%2522%253EPassword%253C%252Flabel%253E%250A%2520%253Cinput%2520class%253D%2522user-input%2522%2520type%253D%2522password%2522%2520name%253D%2522%2522%2520id%253D%2522user-password%2522%2520placeholder%253D%2522enter%2520your%2520password%2522%2520value%2520%253D%2520%25221234%2522%253E%250A%2520%253Cspan%2520class%2520%253D%2520%2522wrong%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Csmall%2520class%2520%253D%2520%2522wrong%2522%253EPassword%2520must%2520have%2520atleast%25201%2520alphaneumeric%2520%2526%25201%2520special%2520character%21%253C%252Fsmall%253E%250A%2520%253C%252Fdiv%253E%2520%2520%250A%2520%253C%252Fdiv%253E"
+           sandbox="allow-scripts allow-same-origin">
+      </iframe>
+        
+
+    </div>
+            
+                
+        </div>
+
+    <footer class="footer">
+    
+        <div class="footer-header"> Made by Rahul with ❤️</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/rahul31agrawal"><i class="fab fa-github fa-2x"></i>
+            </a>
+            </li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rahul-agrawal-680507161" target="_blank"><i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            </li>
+            <li class="list-item-inline"><a class="link" href="mailto:rahul31agrawal@gmail.com"><i class="fas fa-envelope fa-2x"></i>
+            </a>
+            </li>
+            
+        </ul>
+    
+</footer>
+
+</body>
+</html> 
