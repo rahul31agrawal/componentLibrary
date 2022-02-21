@@ -1,6 +1,5 @@
 <div>
 
-<img src="pics/wizardUI.png" alt="wizardUI logo" width="150px" height="150px" />
   
 # wizardUI
 
