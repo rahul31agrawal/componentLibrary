@@ -1,0 +1,28 @@
+.headings-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.h1h{
+ font-size: 32px;   
+}
+
+.h2h{
+    font-size: 25.6px;   
+}
+
+.h3h{
+    font-size: 22.4px;   
+}   
+
+.h4h{
+    font-size: 19.2px;   
+}
+
+.h5h{
+    font-size: 16px;   
+}
+
+.h6h{
+    font-size: 12.8px;   
+}

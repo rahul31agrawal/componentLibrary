@@ -11,7 +11,7 @@
 @import "/cssFiles/slider.css";
 @import "/cssFiles/home.css";
 @import "/cssFiles/components/installation/installation.css";
-
+@import "/cssFiles/typography.css";
 
 html{
   scroll-behavior: smooth;
