@@ -43,3 +43,7 @@ wizardUI comprises of the following components.
 
 ---
 
+## WizardUI  Overview
+
+![WizardUI demo gif](/pics/readmegif.gif)
+
