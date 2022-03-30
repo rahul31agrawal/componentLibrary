@@ -194,6 +194,6 @@
 }
 
 .linkp:hover {
-    background-color:#002ead;
+    background-color:var(--link-buttonColor);
 
 }
