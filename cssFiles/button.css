@@ -180,3 +180,20 @@
     padding: 0;
     margin: 2rem;
 }
+
+/** links **/
+.linkp {
+    text-decoration: none;
+    padding: 1rem 2rem
+}
+
+.link-primaryp {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.linkp:hover {
+    background-color:var(--link-buttonColor);
+
+} 
