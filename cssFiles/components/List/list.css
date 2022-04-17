@@ -1,0 +1,18 @@
+.listSpaced {
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+.list.non-bulletSpaced  {
+    list-style: none;
+}
+
+.list-item-inlineSpaced  {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.list-itemSpaced  {
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
