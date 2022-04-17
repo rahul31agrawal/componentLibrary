@@ -7,6 +7,7 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
+
 </head>
 <body>
     <nav class="navigationM containerM">
@@ -38,34 +39,35 @@
           <a href="../Grid/grid.html">Grid</a>
           <a href="../slider/slider.html">Slider</a>
           <a href="../Typography/typography.html">Typography</a>
-
-          <a href="../List/list.html">List</a>
-          <a href="../modal/modal.html">Modal</a>
-
           <a href="../Ratings/ratings.html">Ratings</a>
           <a href="../snackbar/snackbar.html">Snackbar</a>
-
         </div>
         <div class="main">
-            <h3 class="avatar-heading" id = "avatarSection">Avatar</h3>
+            <h3 class="avatar-heading" id = "avatarSection">Snackbar</h3>
             
             
             <div class="main-container">
-                <h3 class = "heading6 avatar-heading"> Avatar</h3>
+                <h3 class = "heading6 avatar-heading">Snackbar</h3>
+                
                 
                 <div class="avatar">
-                    <img id="avatarSmall" src="/pics/Harry.jpg" alt="harry">
-                    <img id="avatarMedium" src="/pics/Harry.jpg" alt="harry">
-                    <img id="avatarLarge" src="/pics/Harry.jpg" alt="harry">
+                
+                    <div class="snackbar-container">
+                        <button id="btn-bottom">Click to view snackbar</button>
+                        <div class="snackbar bottom">
+                             Conversation has been marked unread
+                             <i id="close-bottom" class="fas fa-times-circle"></i>
+                        </div>
+                    </div>
                 
                 </div>
+
                 <div class="iframe-container">
                     
                     <iframe class = "iframe" id = "avatar-iframe1"
-                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=javascript&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=30px&ph=53px&ln=false&fl=1&fm=Fira+Code&fs=13.5px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520id%253D%2522avatarSmall%2522%2520src%253D%2522%252Fpics%252FHarry.jpg%2522%2520alt%253D%2522harry%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520id%253D%2522avatarMedium%2522%2520src%253D%2522%252Fpics%252FHarry.jpg%2522%2520alt%253D%2522harry%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520id%253D%2522avatarLarge%2522%2520src%253D%2522%252Fpics%252FHarry.jpg%2522%2520alt%253D%2522harry%2522%253E%250A%253C%252Fdiv%253E"
-                    
-                     sandbox="allow-scripts allow-same-origin">
-                    </iframe>
+                    src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=css&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522snackbar-container%2522%253E%250A%253Cbutton%2520id%253D%2522btn-bottom%2522%253EClick%2520to%2520view%2520snackbar%253C%252Fbutton%253E%250A%253Cdiv%2520class%253D%2522snackbar%2520bottom%2522%253E%250AConversation%2520has%2520been%2520marked%2520unread%250A%253Ci%2520id%253D%2522close-bottom%2522%2520class%253D%2522fas%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
                     
 
                 </div>
@@ -90,6 +92,6 @@
         </ul>
     
 </footer>
-
+<script src="snackbar.js"></script>
 </body>
 </html> 

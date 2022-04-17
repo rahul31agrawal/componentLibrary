@@ -12,8 +12,13 @@
 @import "/cssFiles/home.css";
 @import "/cssFiles/components/installation/installation.css";
 @import "/cssFiles/typography.css";
+
 @import "/cssFiles/components/List/list.css";
 @import"cssFiles/components/modal/modal.css";
+
+@import"/cssFiles/components/Ratings/ratings.css";
+@import"/cssFiles/components/snackbar/snackbar.css";
+
 
 html{
   scroll-behavior: smooth;
