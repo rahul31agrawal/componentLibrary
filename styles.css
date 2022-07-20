@@ -12,10 +12,8 @@
 @import "/cssFiles/home.css";
 @import "/cssFiles/components/installation/installation.css";
 @import "/cssFiles/typography.css";
-
 @import "/cssFiles/components/List/list.css";
 @import"cssFiles/components/modal/modal.css";
-
 @import"/cssFiles/components/Ratings/ratings.css";
 @import"/cssFiles/components/snackbar/snackbar.css";
 
@@ -30,8 +28,8 @@ body {
 
   
   .sidenav {
-    height: 100%;
-    width: 160px;
+    height: 85%;
+    width: 164px;
     position: fixed;
     z-index: 1;
     top: 4rem;
@@ -39,7 +37,11 @@ body {
     background-color: #111;
     overflow-x: hidden;
     padding-top: 20px;
+    overflow-y: auto;
+    
   }
+
+ 
   
   .sidenav a {
     padding: 6px 8px 6px 16px;
@@ -152,7 +154,7 @@ body {
   border-bottom-right-radius: 1rem;
   height: 4rem;
   width: 100%;
-  z-index: 999;
+  z-index: 9;
   
 
   
@@ -194,6 +196,7 @@ body {
   padding: 0.5rem;
   font-size: 1.5rem;
   
+  
 }
 
 .linkM:hover{
@@ -208,6 +211,7 @@ body {
   font-size: 1.5rem;
   padding-top: 1.5rem;
   color: #818181;
+  
 }
 
 .nav-brandM:hover{
@@ -217,3 +221,4 @@ body {
 .heading6{
   margin-top: 5rem;
 }
+

@@ -30,7 +30,7 @@
 
 .modal-header>.modal-close-button:hover {
     color: black;
-    background-color: var(--danger-color);
+    
 }
 
 .modal-body {
