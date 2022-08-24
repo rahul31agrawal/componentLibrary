@@ -38,6 +38,13 @@ wizardUI comprises of the following components.
 <li>Grid</li>
 <li>Slider</li>
 <li>Typography</li>
+<li>List</li>
+<li>Modal</li>
+<li>Rating</li>
+<li>Snackbar</li>
+
+
+
 </ul>
 
 ---
