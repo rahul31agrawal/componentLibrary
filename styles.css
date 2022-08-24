@@ -12,128 +12,144 @@
 @import "/cssFiles/home.css";
 @import "/cssFiles/components/installation/installation.css";
 @import "/cssFiles/typography.css";
+@import "/cssFiles/components/List/list.css";
+@import"cssFiles/components/modal/modal.css";
+@import"/cssFiles/components/Ratings/ratings.css";
+@import"/cssFiles/components/snackbar/snackbar.css";
 
-html{
+
+html {
   scroll-behavior: smooth;
 }
 
 body {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+
+.sidenav {
+  height: 85%;
+  width: 164px;
+  position: fixed;
+  z-index: 1;
+  top: 4rem;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  overflow-y: auto;
+
+}
+
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px;
+  /* Same as the width of the sidenav */
+  font-size: 28px;
+  /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
   }
 
-  
-  .sidenav {
-    height: 100%;
-    width: 160px;
-    position: fixed;
-    z-index: 1;
-    top: 4rem;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    padding-top: 20px;
-  }
-  
   .sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
+    font-size: 18px;
   }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+}
 
 .main-container {
-    font-size: 1rem;
+  font-size: 1rem;
 }
 
 
 .avatar-heading {
-    margin-left: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--primary-color);
-    
+  margin-left: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+
 }
 
 /* avatar-conatiner */
 
-.avatar{
-    min-height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: .5rem;
-    margin: auto;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-    border-radius: 4px;
-    background-color: #F5F7F9;
-    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    flex-wrap: wrap;
-    margin-top: 5rem;
+.avatar {
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 4px;
+  background-color: #F5F7F9;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 5rem;
 
-  }
-  
-  #avatarSmall{
-    width: 50px;
-    clip-path: circle()
-  }
-  
-  
-  #avatarMedium{
-    width: 100px;
-    clip-path: circle()
-  }
-  
-  #avatarLarge{
-    width: 150px;
-    clip-path: circle()
-  }
+}
+
+#avatarSmall {
+  width: 50px;
+  clip-path: circle()
+}
+
+
+#avatarMedium {
+  width: 100px;
+  clip-path: circle()
+}
+
+#avatarLarge {
+  width: 150px;
+  clip-path: circle()
+}
 
 
 .avatar-points {
-    margin-top: 1.5rem;
-    margin-left: 1.25rem;
+  margin-top: 1.5rem;
+  margin-left: 1.25rem;
 }
 
 .avatar-points li {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
 }
 
 .main-container {
-    font-size: 1.5rem;
-    margin-left: 10px;
+  font-size: 1.5rem;
+  margin-left: 10px;
 
 }
 
 
 .iframe-container {
-    text-align: center;
-    margin-top: 4rem;
+  text-align: center;
+  margin-top: 4rem;
 }
 
 .iframe {
-    border: 0px;
-    transform: scale(1);
-    overflow: hidden;
-    width: 85rem;
-    height: 20rem;
+  border: 0px;
+  transform: scale(1);
+  overflow: hidden;
+  width: 85rem;
+  height: 20rem;
 }
 
 /* ---------Navigation---------- */
@@ -145,10 +161,10 @@ body {
   border-bottom-right-radius: 1rem;
   height: 4rem;
   width: 100%;
-  z-index: 999;
-  
+  z-index: 9;
 
-  
+
+
 }
 
 .containerM {
@@ -177,19 +193,20 @@ body {
   display: inline;
   /* padding: 0.5rem; */
   font-size: 1rem;
-  
+
 }
 
 .linkM {
-  
+
   color: #818181;
   text-decoration: none;
   padding: 0.5rem;
   font-size: 1.5rem;
-  
+
+
 }
 
-.linkM:hover{
+.linkM:hover {
   color: #f1f1f1;
 }
 
@@ -197,16 +214,17 @@ body {
   font-weight: bold;
 }
 
-.nav-brandM{
+.nav-brandM {
   font-size: 1.5rem;
   padding-top: 1.5rem;
   color: #818181;
+
 }
 
-.nav-brandM:hover{
+.nav-brandM:hover {
   color: #f1f1f1;
 }
 
-.heading6{
+.heading6 {
   margin-top: 5rem;
 }

@@ -2,143 +2,199 @@
 <html>
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/styles.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
 </head>
+
 <body>
     <nav class="navigationM containerM">
         <div class="nav-brandM">Wizard-UI</div>
-          <ul class="list-non-bullet nav-pills">
-         <li class="list-item-inlineM">
-         <a class="linkM link-active" href="/home.html" class="active">Home</a>
-         </li>
-         <li class="list-item-inlineM">
-         <a class="linkM" href="/installation.html">Documentation</a>
-         </li>
-         <li class="list-item-inlineM">
-         <a class="linkM" href="https://github.com/rahul31agrawal/componentLibrary">Github</a>
-         </li>
-         </ul>
-         </div>
-      </nav>
-
-      <div class="sidenav">
-        <a href="/installation.html">Get Started</a>
-          <a href="../Avatar/avatar.html">Avatar</a>
-          <a href="../Alert/alert.html">Alert</a>
-          <a href="../Badge/badge.html">Badge</a>
-          <a href="../Button/button.html">Button</a>
-          <a href="../card/card.html">Card</a>
-          <a href="../image/image.html">Images</a>
-          <a href="../input/input.html">Input</a>
-          <a href="../Navigation/navigation.html">Navigation</a>
-          <a href="../Grid/grid.html">Grid</a>
-          <a href="../slider/slider.html">Slider</a>
-          <a href="../Typography/typography.html">Typography</a>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inlineM">
+                <a class="linkM link-active" href="/home.html" class="active">Home</a>
+            </li>
+            <li class="list-item-inlineM">
+                <a class="linkM" href="/installation.html">Documentation</a>
+            </li>
+            <li class="list-item-inlineM">
+                <a class="linkM" href="https://github.com/rahul31agrawal/componentLibrary">Github</a>
+            </li>
+        </ul>
         </div>
-        <div class="main">
-            <!-- -----------------------------1 Card Section------------------------------------ -->
+    </nav>
 
-            
-            <h3 class="card-heading" id = "cardt">Card</h3>
-            
-            <div class="main-container">
-                <h3>Demo</h3>
-                <div class="cardnew">
-                    
-                    <h2 >Card with badge</h2>
-                    <div class ='container1'>
-                      <div>
-                          
-                            <img class= 'ecom-img1' src="/pics/Ecomimage.jpg" alt="ecomimage">
-                            <span class="card-badge1"> Best seller </span>
-                             <span class="heart-badge1"><i class="fas fa-heart"></i></span>
-                          
-                       
-                      </div>
-                
-                      <div>
+    <aside class="sidenav">
+        <a href="/installation.html">Get Started</a>
+        <a href="/cssFiles/components/Avatar/avatar.html">Avatar</a>
+        <a href="/cssFiles/components/Alert/alert.html">Alert</a>
+        <a href="/cssFiles/components/Badge/badge.html">Badge</a>
+        <a href="/cssFiles/components/Button/button.html">Button</a>
+        <a href="/cssFiles/components/card/card.html">Card</a>
+        <a href="/cssFiles/components/image/image.html">Images</a>
+        <a href="/cssFiles/components/input/input.html">Input</a>
+        <a href="/cssFiles/components/Navigation/navigation.html">Navigation</a>
+        <a href="/cssFiles/components/Grid/grid.html">Grid</a>
+        <a href="/cssFiles/components/slider/slider.html">Slider</a>
+        <a href="../Typography/typography.html">Typography</a>
+        <a href="../List/list.html">List</a>
+        <a href="../modal/modal.html">Modal</a>
+        <a href="../Ratings/ratings.html">Ratings</a>
+        <a href="../snackbar/snackbar.html">Snackbar</a>
+
+    </aside>
+    <div class="main">
+        <h3 class="card-heading" id="cardt">Card</h3>
+        <!-- -----------------------------0 Card Section------------------------------------ -->
+        <div class="main-container">
+            <h3>Demo</h3>
+            <div class="cardnew">
+
+                <h2>Vertical Card</h2>
+                <div class='container1'>
+                    <div>
+
+                        <img class='ecom-img1' src="/pics/Ecomimage.jpg" alt="ecomimage">
+
+
+
+                    </div>
+
+                    <div>
                         <h5> Eyebogler men t-shirt</h5>
                         <h6> Category: Men's t-shirt</h6>
-                        
-                      </div>
-                
-                      <div class= 'secondary-container1'>
-                          <p class="disc-price1"> ₹900</p>
-                          <p class="actual-price1">₹1000</p>
-                          <p class="offer-info1">(10% Off)</p>
-                      </div>
-                      
-                      <div class="card-footer1">
+
+                    </div>
+
+                    <div class='secondary-container1'>
+                        <p class="disc-price1"> ₹900</p>
+                        <p class="actual-price1">₹1000</p>
+                        <p class="offer-info1">(10% Off)</p>
+                    </div>
+
+                    <div class="card-footer1">
                         <button class="btn-link1 call-to-action1 vertical-btn1">Add to cart</button>
-                      </div>
                     </div>
                 </div>
-                  
-            </div>  
-
-            <div class="iframe-container">
-                    
-                <iframe class = "iframe" id = "avatar-iframe1"
-                         src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cardnew%2522%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520%253ECard%2520with%2520badge%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%27container1%27%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2520%27ecom-img1%27%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge1%2522%253E%2520Best%2520seller%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522heart-badge1%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253E%2520Eyebogler%2520men%2520t-shirt%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253E%2520Category%253A%2520Men%27s%2520t-shirt%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2520%27secondary-container1%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522disc-price1%2522%253E%2520%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522actual-price1%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522offer-info1%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link1%2520call-to-action1%2520vertical-btn1%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-  
-                        sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                
-
             </div>
 
-            <!-- ----------------------2--------------------------- -->
-
-            <div class="cardnew">
-                
-                <div>
-                    <h2 class="h2">Card with badge & dismiss</h2>
-                    <div class ='cardcontainer2'>
-                      <div>
-                       <img class= 'ecom-img2' src="/pics/Ecomimage.jpg" alt="ecomimage">
-                       <span class="card-badge2"> New Arrival </span>
-                       <button class="dismiss-btn2">
-                          <i class="fas fa-times"></i>
-                        </button>
-                
-                      </div>
-                
-                      <div>
-                        <h5> Eyebogler men t-shirt</h5>
-                        <h6> Category: Men t-shirt</h6>
-                        
-                      </div>
-                
-                      <div class= 'secondary-container2'>
-                          <p class="disc-price2"> ₹900</p>
-                          <p class="actual-price2">₹1000</p>
-                          <p class="offer-info2">(10% Off)</p>
-                      </div>
-                      
-                      <div class="card-footer">
-                        <button class="btn-link2 call-to-action2 vertical-btn2">Add to cart</button>
-                      </div>
-                
-                
-                
-                    </div>
-                
-
-            </div>
-              
-        </div>  
+        </div>
 
         <div class="iframe-container">
-                
-            <iframe class = "iframe" id = "avatar-iframe1"
+
+            <iframe class="iframe" id="avatar-iframe1"
+              src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cardnew%2522%253E%250A%2520%253Ch2%2520%253ECard%2520with%2520badge%253C%252Fh2%253E%250A%2520%253Cdiv%2520class%2520%253D%27container1%27%253E%250A%2520%253Cdiv%253E%250A%2520%253Cimg%2520class%253D%2520%27ecom-img1%27%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%253E%250A%2520%253Ch5%253E%2520Eyebogler%2520men%2520t-shirt%253C%252Fh5%253E%250A%2520%253Ch6%253E%2520Category%253A%2520Men%27s%2520t-shirt%253C%252Fh6%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2520%27secondary-container1%27%253E%250A%2520%253Cp%2520class%253D%2522disc-price1%2522%253E%2520%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522actual-price1%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522offer-info1%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522card-footer1%2522%253E%250A%2520%253Cbutton%2520class%253D%2522btn-link1%2520call-to-action1%2520vertical-btn1%2522%253E%250A%2520Add%2520to%2520cart%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+             sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+        </div>
+
+
+
+
+
+
+        <!-- -----------------------------1 Card Section------------------------------------ -->
+
+
+
+
+        <div class="main-container">
+
+            <div class="cardnew">
+
+                <h2>Card with badge</h2>
+                <div class='container1'>
+                    <div>
+
+                        <img class='ecom-img1' src="/pics/Ecomimage.jpg" alt="ecomimage">
+                        <span class="card-badge1"> Best seller </span>
+                        <span class="heart-badge1"><i class="fas fa-heart"></i></span>
+
+
+                    </div>
+
+                    <div>
+                        <h5> Eyebogler men t-shirt</h5>
+                        <h6> Category: Men's t-shirt</h6>
+
+                    </div>
+
+                    <div class='secondary-container1'>
+                        <p class="disc-price1"> ₹900</p>
+                        <p class="actual-price1">₹1000</p>
+                        <p class="offer-info1">(10% Off)</p>
+                    </div>
+
+                    <div class="card-footer1">
+                        <button class="btn-link1 call-to-action1 vertical-btn1">Add to cart</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="iframe-container">
+
+            <iframe class="iframe" id="avatar-iframe1"
+                src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522cardnew%2522%253E%250A%2520%2520%2520%2520%2520%253Ch2%2520%253ECard%2520with%2520badge%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%2520%253D%27container1%27%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2520%27ecom-img1%27%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge1%2522%253E%2520Best%2520seller%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522heart-badge1%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253E%2520Eyebogler%2520men%2520t-shirt%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch6%253E%2520Category%253A%2520Men%27s%2520t-shirt%253C%252Fh6%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2520%27secondary-container1%27%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522disc-price1%2522%253E%2520%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522actual-price1%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522offer-info1%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link1%2520call-to-action1%2520vertical-btn1%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+
+        </div>
+
+        <!-- ----------------------2--------------------------- -->
+
+        <div class="cardnew">
+
+            <div>
+                <h2 class="h2">Card with badge & dismiss</h2>
+                <div class='cardcontainer2'>
+                    <div>
+                        <img class='ecom-img2' src="/pics/Ecomimage.jpg" alt="ecomimage">
+                        <span class="card-badge2"> New Arrival </span>
+                        <button class="dismiss-btn2">
+                            <i class="fas fa-times"></i>
+                        </button>
+
+                    </div>
+
+                    <div>
+                        <h5> Eyebogler men t-shirt</h5>
+                        <h6> Category: Men t-shirt</h6>
+
+                    </div>
+
+                    <div class='secondary-container2'>
+                        <p class="disc-price2"> ₹900</p>
+                        <p class="actual-price2">₹1000</p>
+                        <p class="offer-info2">(10% Off)</p>
+                    </div>
+
+                    <div class="card-footer">
+                        <button class="btn-link2 call-to-action2 vertical-btn2">Add to cart</button>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="iframe-container">
+
+            <iframe class="iframe" id="avatar-iframe1"
                 src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%27cardcontainer2%27%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%253Cimg%2520class%253D%2520%27ecom-img2%27%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522card-badge2%2522%253E%2520New%2520Arrival%2520%253C%252Fspan%253E%250A%2520%2520%253Cbutton%2520class%253D%2522dismiss-btn2%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%253E%250A%2520%2520%253Ch5%253E%2520Eyebogler%2520men%2520t-shirt%253C%252Fh5%253E%250A%2520%2520%253Ch6%253E%2520Category%253A%2520Men%2520t-shirt%253C%252Fh6%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2520%27secondary-container2%27%253E%250A%2520%2520%253Cp%2520class%253D%2522disc-price2%2522%253E%2520%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522actual-price2%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%2520%253Cp%2520class%253D%2522offer-info2%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn-link2%2520call-to-action2%2520vertical-btn2%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 sandbox="allow-scripts allow-same-origin">
-                </iframe>
-            
+            </iframe>
+
 
         </div>
 
@@ -146,78 +202,78 @@
         <!-- --------------------------3----------------------- -->
 
         <div class="cardnew">
-                
+
             <div>
                 <h2 class="h2">Card with Text overlay</h2>
-                <div class ='cardcontainer3'>
-                  <div>
-                   <img class= 'ecom-img3' src="/pics/Ecomimage.jpg" alt="ecomimage">
-                   <span class="textcard-badge3"> Hurry up! limited period offer </span>
-                   <button class="dismiss-btn3">
-                      <i class="fas fa-times"></i>
-                    </button>
-            
-                  </div>
-            
-                  <div>
-                    <h5> Eyebogler men t-shirt</h5>
-                    <h6> Category: Men t-shirt</h6>
-                    
-                  </div>
-            
-                  <div class= 'secondary-container3'>
-                      <p class="disc-price3"> ₹900</p>
-                      <p class="actual-price3">₹1000</p>
-                      <p class="offer-info3">(10% Off)</p>
-                  </div>
-                  
-                  <div class="card-footer3">
-                    <button class="btn-link3 call-to-action3 vertical-btn3">Add to cart</button>
-                  </div>
-            
-            
-            
+                <div class='cardcontainer3'>
+                    <div>
+                        <img class='ecom-img3' src="/pics/Ecomimage.jpg" alt="ecomimage">
+                        <span class="textcard-badge3"> Hurry up! limited period offer </span>
+                        <button class="dismiss-btn3">
+                            <i class="fas fa-times"></i>
+                        </button>
+
+                    </div>
+
+                    <div>
+                        <h5> Eyebogler men t-shirt</h5>
+                        <h6> Category: Men t-shirt</h6>
+
+                    </div>
+
+                    <div class='secondary-container3'>
+                        <p class="disc-price3"> ₹900</p>
+                        <p class="actual-price3">₹1000</p>
+                        <p class="offer-info3">(10% Off)</p>
+                    </div>
+
+                    <div class="card-footer3">
+                        <button class="btn-link3 call-to-action3 vertical-btn3">Add to cart</button>
+                    </div>
+
+
+
                 </div>
-            
+
+
+            </div>
 
         </div>
-          
-    </div>  
 
-    <div class="iframe-container">
-            
-        <iframe class = "iframe" id = "avatar-iframe1"
-            src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%27cardcontainer3%27%253E%250A%2520%253Cdiv%253E%250A%2520%253Cimg%2520class%253D%2520%27ecom-img3%27%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%253E%250A%2520%253Cspan%2520class%253D%2522textcard-badge3%2522%253E%2520Hurry%2520up%21%2520limited%2520period%2520offer%2520%253C%252Fspan%253E%250A%2520%253Cbutton%2520class%253D%2522dismiss-btn3%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%253E%250A%2520%253Ch5%253E%2520Eyebogler%2520men%2520t-shirt%253C%252Fh5%253E%250A%2520%253Ch6%253E%2520Category%253A%2520Men%2520t-shirt%253C%252Fh6%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2520%27secondary-container3%27%253E%250A%2520%253Cp%2520class%253D%2522disc-price3%2522%253E%2520%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522actual-price3%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522offer-info3%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522card-footer3%2522%253E%250A%2520%253Cbutton%2520class%253D%2522btn-link3%2520call-to-action3%2520vertical-btn3%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
-            sandbox="allow-scripts allow-same-origin">
-        </iframe>
-        
+        <div class="iframe-container">
 
-    </div>
+            <iframe class="iframe" id="avatar-iframe1"
+                src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%27cardcontainer3%27%253E%250A%2520%253Cdiv%253E%250A%2520%253Cimg%2520class%253D%2520%27ecom-img3%27%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%253E%250A%2520%253Cspan%2520class%253D%2522textcard-badge3%2522%253E%2520Hurry%2520up%21%2520limited%2520period%2520offer%2520%253C%252Fspan%253E%250A%2520%253Cbutton%2520class%253D%2522dismiss-btn3%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%253E%250A%2520%253Ch5%253E%2520Eyebogler%2520men%2520t-shirt%253C%252Fh5%253E%250A%2520%253Ch6%253E%2520Category%253A%2520Men%2520t-shirt%253C%252Fh6%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2520%27secondary-container3%27%253E%250A%2520%253Cp%2520class%253D%2522disc-price3%2522%253E%2520%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522actual-price3%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522offer-info3%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522card-footer3%2522%253E%250A%2520%253Cbutton%2520class%253D%2522btn-link3%2520call-to-action3%2520vertical-btn3%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
 
-    <!-- --------------------------4----------------------- -->
 
-             <div class="cardnew">
-                <h2 class="h2">Text Only card</h2>
-                 <div class="textcard text-only">
-                    <button class="textcard-dismiss-btn">
+        </div>
+
+        <!-- --------------------------4----------------------- -->
+
+        <div class="cardnew">
+            <h2 class="h2">Text Only card</h2>
+            <div class="textcard text-only">
+                <button class="textcard-dismiss-btn">
                     <i class="fas fa-times"></i>
-                    </button>
+                </button>
 
-                <h1 class = "heading4" >Heading</h1>
+                <h1 class="heading4">Heading</h1>
                 <p>
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                </div>     
-         
+            </div>
+
 
             <div class="iframe-container">
-                <iframe class = "iframe" id = "avatar-iframe1"
+                <iframe class="iframe" id="avatar-iframe1"
                     src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522textcard%2520text-only%2522%253E%250A%2520%253Cbutton%2520class%253D%2522textcard-dismiss-btn%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%253Ch1%2520class%2520%253D%2520%2522heading4%2522%2520%253EHeading%253C%252Fh1%253E%250A%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%252C%2520consectetur%2520adipiscing%2520elit%252C%2520sed%2520do%250A%2520%2520eiusmod%2520tempor%2520incididunt%2520ut%2520labore%2520et%2520dolore%2520magna%2520aliqua.%253C%252Fp%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
-                
-    
+
+
 
             </div>
 
@@ -249,84 +305,88 @@
                         </div>
                     </div>
                 </div>
-                </div>     
-         
+            </div>
+
 
             <div class="iframe-container">
-                <iframe class = "iframe" id = "avatar-iframe1"
+                <iframe class="iframe" id="avatar-iframe1"
                     src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card5%2520horizontal-card-container%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522horizontal-card-img%2522%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%2520%252F%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-info%2522%253E%250A%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EEye%2520Boggling%2520tshirt%253C%252Fh2%253E%250A%2520%2520%2520%253Ch3%2520class%253D%2522subtitle%2522%253ETshirt%253C%252Fh3%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%253Cdiv%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522disc-price%2522%253E%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522actual-price%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%2520%2520%253Cp%2520class%253D%2522offer-info%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2520call-to-action%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%2520%2520%253Cbutton%2520class%253D%2522btn-link%2520not-call-to-action%2522%253EAdd%2520to%2520wishlist%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
-                
-    
+
+
 
             </div>
 
-                <!-- --------------------------6----------------------- -->
+            <!-- --------------------------6----------------------- -->
 
             <div class="cardnew6">
-                    
-                <h2 >Card with shadow</h2>
-                <div class ='container6 card-with-shadow6'>
-                  <div>
-                      
-                        <img class= 'ecom-img6' src="/pics/Ecomimage.jpg" alt="ecomimage">
+
+                <h2>Card with shadow</h2>
+                <div class='container6 card-with-shadow6'>
+                    <div>
+
+                        <img class='ecom-img6' src="/pics/Ecomimage.jpg" alt="ecomimage">
                         <span class="card-badge6"> Best seller </span>
-                         <span class="heart-badge6"><i class="fas fa-heart"></i></span>
-                      
-                   
-                  </div>
-            
-                  <div>
-                    <h5> Eyebogler men t-shirt</h5>
-                    <h6> Category: Men's t-shirt</h6>
-                    
-                  </div>
-            
-                  <div class= 'secondary-container6'>
-                      <p class="disc-price6"> ₹900</p>
-                      <p class="actual-price6">₹1000</p>
-                      <p class="offer-info6">(10% Off)</p>
-                  </div>
-                  
-                  <div class="card-footer6">
-                    <button class="btn-link6 call-to-action6 vertical-btn6">Add to cart</button>
-                  </div>
+                        <span class="heart-badge6"><i class="fas fa-heart"></i></span>
+
+
+                    </div>
+
+                    <div>
+                        <h5> Eyebogler men t-shirt</h5>
+                        <h6> Category: Men's t-shirt</h6>
+
+                    </div>
+
+                    <div class='secondary-container6'>
+                        <p class="disc-price6"> ₹900</p>
+                        <p class="actual-price6">₹1000</p>
+                        <p class="offer-info6">(10% Off)</p>
+                    </div>
+
+                    <div class="card-footer6">
+                        <button class="btn-link6 call-to-action6 vertical-btn6">Add to cart</button>
+                    </div>
                 </div>
             </div>
-              
-        </div>  
+
+        </div>
 
         <div class="iframe-container">
-                
-            <iframe class = "iframe" id = "avatar-iframe1"
+
+            <iframe class="iframe" id="avatar-iframe1"
                 src="https://carbon.now.sh/embed?bg=rgba%28248%2C231%2C28%2C1%29&t=blackboard&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%2520%253D%27container6%2520card-with-shadow6%27%253E%250A%2520%253Cdiv%253E%250A%2520%253Cimg%2520class%253D%2520%27ecom-img6%27%2520src%253D%2522pics%252FEcomimage.jpg%2522%2520alt%253D%2522ecomimage%2522%253E%250A%2520%253Cspan%2520class%253D%2522card-badge6%2522%253E%2520Best%2520seller%2520%253C%252Fspan%253E%250A%2520%253Cspan%2520class%253D%2522heart-badge6%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%253E%250A%2520%253Ch5%253E%2520Eyebogler%2520men%2520t-shirt%253C%252Fh5%253E%250A%2520%253Ch6%253E%2520Category%253A%2520Men%27s%2520t-shirt%253C%252Fh6%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2520%27secondary-container6%27%253E%250A%2520%253Cp%2520class%253D%2522disc-price6%2522%253E%2520%25E2%2582%25B9900%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522actual-price6%2522%253E%25E2%2582%25B91000%253C%252Fp%253E%250A%2520%253Cp%2520class%253D%2522offer-info6%2522%253E%2810%2525%2520Off%29%253C%252Fp%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253Cdiv%2520class%253D%2522card-footer6%2522%253E%250A%2520%253Cbutton%2520class%253D%2522btn-link6%2520call-to-action6%2520vertical-btn6%2522%253EAdd%2520to%2520cart%253C%252Fbutton%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                 sandbox="allow-scripts allow-same-origin">
             </iframe>
-            
+
 
         </div>
-            
-                
-        </div>
+
+
+    </div>
 
     <footer class="footer">
-    
+
         <div class="footer-header"> Made by Rahul with ❤️</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="https://github.com/rahul31agrawal"><i class="fab fa-github fa-2x"></i>
-            </a>
+            <li class="list-item-inline"><a class="link" href="https://github.com/rahul31agrawal"><i
+                        class="fab fa-github fa-2x"></i>
+                </a>
             </li>
-            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rahul-agrawal-680507161" target="_blank"><i class="fab fa-linkedin fa-2x"></i>
-            </a>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/rahul-agrawal-680507161"
+                    target="_blank"><i class="fab fa-linkedin fa-2x"></i>
+                </a>
             </li>
-            <li class="list-item-inline"><a class="link" href="mailto:rahul31agrawal@gmail.com"><i class="fas fa-envelope fa-2x"></i>
-            </a>
+            <li class="list-item-inline"><a class="link" href="mailto:rahul31agrawal@gmail.com"><i
+                        class="fas fa-envelope fa-2x"></i>
+                </a>
             </li>
-            
+
         </ul>
-    
-</footer>
+
+    </footer>
 
 </body>
-</html> 
+
+</html>
